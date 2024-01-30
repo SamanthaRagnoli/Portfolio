@@ -1,0 +1,571 @@
+$color1: #000000;
+$color2: #ffffff;
+$color3: #ffd9d9;
+$color4: #008ebb;
+$color5: #828282;
+$color6: #ff0000;
+$color7: #c9cdcc;
+$color8: rgba(255, 217 ,217, 0.1);
+
+
+  body {
+   color: $color1;
+   font-family: Poppins, normal;
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 1.4;
+   background-image: url(../img/sfondo.svg);
+   overflow-x: hidden;
+
+}
+
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    padding: 20px;
+    background: $color8;
+    backdrop-filter: blur(50px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 200;
+
+  }
+
+  .logo {
+   width: 40px;
+   height: 40px;
+   padding: 2rem;
+   
+ }
+
+ .navigation a {
+  font-size: 1.15rem;
+  color: $color4;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 2.5rem;
+  transition: all 0.5s;
+
+
+ }
+
+ .navigation {
+  padding-right: 100px;
+  z-index: 1000;
+  transition: all 0.5s;
+
+ }
+
+nav.sticky {
+  background-color: $color8;
+
+}
+
+nav.sticky a {
+  color: $color4;
+  
+}
+
+
+ .section-hero {
+   min-height: 70vh;
+   align-items: center;
+   margin-top: 100px;
+   text-align: center;
+   
+ }
+
+ .bg {
+   background: $color4;
+   padding: 10px;
+
+ }
+
+
+
+ h1 {
+   margin-top: 230px;
+   font-size: 80px;
+   font-weight: 500;
+   line-height: 1.4;
+   color: $color4;
+   font-family: Hoghfish DEMO; 
+   justify-content: center;
+ }
+
+ .title-xl{
+   margin-bottom: 0px;
+ }
+
+
+ .sub-title-l {
+  
+   font-size: 20px;
+   font-weight: 500;
+   line-height: 1.4;
+   color: $color4;
+   font-family: Poppins;
+ }
+
+
+ .hero-cta {
+   margin-top: 100px;
+   margin-bottom: 50px;
+   font-size: 20px;
+   font-weight: 500;
+   line-height: 1.4;
+   color: $color4;
+   font-family: Poppins; 
+ }
+
+ .buttons {
+   display: flex;
+   gap: 450px;
+   justify-content: center;
+   
+   
+ }
+
+
+ .button-aboutme {
+   border-color: $color4;
+   padding: 20px 40px;
+   height: 20px;
+   width: 100px;  
+   font-family: Poppins;
+   font-weight: 500;
+   font-size: 17px;
+   text-align: center;
+   color: $color4;
+   border-radius: 40px;
+   border: 2px solid $color4;
+   text-decoration: none;
+   
+ }
+
+ .button-aboutme:hover{
+   background-color: $color4;
+   color: $color2;
+
+ }
+ 
+ .button-contacts {
+   border-color: $color4;
+   padding: 20px 40px;
+   height: 20px;
+   width: 100px;  
+   font-family: Poppins;
+   font-weight: 500;
+   font-size: 17px;
+   text-align: center;
+   color: $color4;
+   border-radius: 40px;
+   border: 2px solid $color4;
+   text-decoration: none;
+   
+ }
+
+ .button-contacts:hover{
+   background-color: $color4;
+   color: $color2;
+
+ }
+
+ .section-aboutme {
+   min-height: 80vh;
+   display: flex;
+   align-items: center;
+   background-color: $color3;
+   gap: 20px;
+
+ }
+
+ .img-s-aboutme {
+   flex: 50%;
+ }
+
+ .img-aboutme{
+   width: 450px;
+   height: 450px;
+   padding-left: 11rem;
+
+ }
+
+ .text-s-aboutme {
+   flex: 50%;
+
+ }
+
+ .title-xm {
+   margin-bottom: 20px;
+   font-size: 35px;
+   font-weight: 500;
+   line-height: 1.4;
+   color: $color4;
+   font-family: Hoghfish DEMO; 
+ }
+
+ .text-m {
+   margin-right: 150px;
+   font-size: 15px;
+   font-weight: 400;
+   line-height: 1.4;
+   color: $color1;
+   font-family: Poppins;
+   width: 585px; 
+ }
+
+ 
+ .section-gallery {
+   min-height: 20vh;
+   padding-top: 4rem;
+   padding-bottom: 4rem;  
+   align-items: center;
+   text-align: center;
+ }
+
+ .title-gallery {
+   margin-bottom: 20px;
+   font-size: 35px;
+   font-weight: 500;
+   line-height: 1.4;
+   color: $color4;
+   font-family: Hoghfish DEMO;
+   justify-content: center;
+ }
+
+ .swiper {
+   width: 100%;
+   height: 45vh;
+   padding-top: 60px;
+   padding-bottom: 60px;
+ }
+
+ .swiper-slide {
+   background-position: center;
+   background-size: cover;
+   width: 500px;
+   height: 300px;
+ }
+
+ .swiper-slide img {
+   display: block;
+   width: 100%;
+   border-radius: 1rem;
+ }
+
+
+ .cta-project:hover{
+   background-color: $color4;
+   color: $color2;
+ }
+
+
+
+
+
+
+
+
+
+
+.section-contact {
+  background-color: $color4;
+  width: 100%;
+  height: 100vh;
+  
+}
+
+.contatti {
+  padding-top: 10px;
+  text-align: center;
+  color: $color3;
+  font-size: 25px;
+  font-weight: 500;
+
+}
+
+.txt-contact {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  color: $color3;
+  margin-top: -10px;
+  
+}
+
+
+.contenitore { 
+  display: flex;
+  gap: 100px;
+  padding: 40px;
+  
+ }
+
+.form {
+  width: 50%;
+  
+}
+
+.info {
+  width: 35%;
+}
+
+.contact {
+  padding: 40px;
+  background: transparent; 
+}
+
+.contact h3 {
+  color: $color3;
+  font-weight: 500;
+  font-size: 1.4em;
+ 
+}
+
+.input-box {
+  width: 100%;
+
+}
+
+.input-box .row50 {
+  display: flex;
+  gap: 20px;
+}
+
+.input-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  width: 50%;
+
+}
+
+.input-box .row100 .input-field {
+  width: 100%;
+}
+
+.input-field span {
+  color: $color3;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: 500;
+
+}
+
+.input-field input {
+  padding: 10px;
+  font-size: 1.1em;
+  outline: none;
+  border: 2px solid $color3;
+  resize: none;
+  background: transparent;
+  border-radius: 5px;
+  
+
+
+}
+
+.input-field textarea {
+  padding: 10px;
+  font-size: 1.1em;
+  outline: none;
+  border: 2px solid $color3;
+  resize: none;
+  min-height: 100px;
+  margin-bottom: 10px;
+  background: transparent;
+  border-radius: 5px;
+
+
+}
+
+.input-field input[type=submit] {
+  background: transparent;
+  color: $color3;
+  border: 2px solid $color3;
+  font-size: 1.1em;
+  max-width: 120px;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 14px 15px;
+
+}
+
+.input-field input[type=submit] :hover {
+  background: $color3;
+  color: $color4;
+
+
+}
+
+.input-field ::placeholder {
+  color: $color7;
+  font-family: Poppins;
+  font-size: 15px;
+
+}
+
+
+.info .infoBox div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+
+}
+
+
+.info .infoBox div span {
+  min-width: 40px;
+  height: 40px;
+  color: $color4;
+  background: $color3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  border-radius: 50%;
+  margin-right: 15px;
+
+}
+
+.info .infoBox div p {
+  color: $color3;
+  font-size: 0.9em;
+  font-weight: 400;
+  
+}
+
+.info .infoBox div a {
+  color: $color3;
+  text-decoration: none;
+  font-size: 0.9em;
+  font-weight: 400;
+
+}
+
+.social {
+  margin-top: 40px;
+  display: flex;
+  margin-left: -40px;
+
+}
+
+.social li {
+  list-style: none;
+  margin-right: 15px;
+  
+}
+
+.social li a {
+  color: $color3;
+  font-size: 1.5em;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+ .footer {
+   min-height: 40vh;
+   display: flex;
+   align-items: center;
+   background-color: $color3;
+   gap: 20px;
+   
+ }
+
+ .footer-contacts {
+   margin-left: 50px;
+   width: 30%
+
+ } 
+
+ .footer-contacts .footerBox div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+
+}
+
+
+ .footer-contacts .footerBox div span {
+   min-width: 40px;
+   height: 40px;
+   color: $color3;
+   background: $color4;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 1.5em;
+   border-radius: 50%;
+   margin-right: 15px;
+
+ }
+
+ .footer-contacts .footerBox div p {
+   color: $color4;
+   font-size: 0.9em;
+   font-weight: 400;
+  
+ } 
+
+ .footer-contacts .footerBox div a {
+   color: $color4;
+   text-decoration: none;
+   font-size: 0.9em;
+   font-weight: 400;
+
+ }
+
+
+
+ .footer-social {
+   display: flex;
+   width: 30%;
+   margin-top: 150px;
+ 
+
+ }
+
+
+ .footer-social li {
+   list-style: none;
+   margin-right: 15px;
+  
+ }
+
+ .footer-social li a {
+   color: $color4;
+   font-size: 1.5em;
+ 
+ }
+
+ .footer-pages {
+   width: 30%;
+  
+   
+   
+ 
+  }
+
+  .text-xs {
+    text-decoration: none;
+    margin: 40px;
+    color: $color4;
+    
+
+
+
+
+  }
