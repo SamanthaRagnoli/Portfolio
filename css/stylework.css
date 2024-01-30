@@ -1,0 +1,260 @@
+@font-face {
+    font-display: swap; 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 100;
+    src: url('../fonts/poppins-v20-latin-100.woff2') format('woff2'); 
+}
+
+  @font-face {
+    font-display: swap; 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200;
+    src: url('../fonts/poppins-v20-latin-200.woff2') format('woff2'); 
+  }
+
+  @font-face {
+    font-display: swap; 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/poppins-v20-latin-300.woff2') format('woff2'); 
+  }
+
+  @font-face {
+    font-display: swap;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/poppins-v20-latin-regular.woff2') format('woff2'); 
+  }
+
+  @font-face {
+    font-display: swap; 
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 400;
+    src: url('../fonts/poppins-v20-latin-italic.woff2') format('woff2'); 
+  }
+
+  @font-face {
+    font-display: swap;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/poppins-v20-latin-500.woff2') format('woff2'); 
+  }
+
+  @font-face {
+    font-display: swap; 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/poppins-v20-latin-600.woff2') format('woff2'); 
+  }
+ 
+  @font-face {
+    font-display: swap; 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/poppins-v20-latin-700.woff2') format('woff2'); 
+  }
+  
+  @font-face {
+    font-display: swap; 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../fonts/poppins-v20-latin-800.woff2') format('woff2'); 
+  }
+ 
+  @font-face {
+    font-display: swap; 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/poppins-v20-latin-900.woff2') format('woff2'); 
+  }
+ 
+  @font-face {
+    font-display: swap; 
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 900;
+    src: url('../fonts/poppins-v20-latin-900italic.woff2') format('woff2'); 
+  }
+
+  @font-face {
+    font-family: 'Hoghfish DEMO';
+    src: url("../fonts/Hogfish\ DEMO.otf");
+   
+    }
+
+
+  :root {
+    --dark-color: #000;
+    --light-color: #fff;
+    --pink-color:#ffd9d9;
+    --lightblue-color: #008ebb;
+  }
+
+
+  body {
+   color: var(--light-color);
+   font-family: Poppins, normal; 
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 1.4;
+   background-image: url(../img/sfondo.svg);
+  }
+
+
+  .main-header {
+    width: 100%;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    position: fixed;
+    top: 0%;
+    bottom: auto;
+    left: 0%;
+    right: 0%;
+  }
+
+
+  .container-flex {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    transition: 500ms;
+  
+  }
+
+  .logo {
+    width: 40px;
+    height: 40px;
+    padding-top: 2rem;
+    padding-right: 2rem;
+  }
+
+
+  .nav-item {
+    color:var(--lightblue-color);
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    display: inline-block; 
+    justify-content: end;
+    text-decoration: none;
+  }
+
+
+
+
+
+
+
+
+
+
+  
+ .title-work {
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 1.4;
+    color: var(--lightblue-color);
+    font-family: Hoghfish DEMO; 
+ }
+
+
+  .section-work {
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    gap: 20px;
+
+  }
+
+  .img-s-work {
+    flex: 50%;
+  }
+
+  .img-work{
+    width: 350px;
+    height: 350px;
+    padding-left: 11rem;
+
+  }
+
+  .text-s-work {
+    flex: 50%;
+
+  }
+
+  .title-work-xm {
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 1.4;
+    color: var(--lightblue-color);
+    font-family: Hoghfish DEMO; 
+  }
+
+  .text-work-m {
+    margin-right: 150px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: var(--dark-color);
+    font-family: Poppins; 
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .footer {
+    margin-top: 100px;
+    min-height: 40vh;
+    display: flex;
+    align-items: center;
+    background-color: var(--pink-color);
+  }
+
+  .footer-contacts {
+    margin-left: 50px;
+
+  } 
+
+  .subtitle-xm {
+    color: var(--lightblue-color);
+    font-weight: 600;
+
+  }
+
+  .text-xs {
+    color: var(--lightblue-color);
+    font-weight: 500;
+    padding: 20px;
+    text-decoration: none;
+  }
+
+  .footer-social {
+    display: flex;
+
+  }

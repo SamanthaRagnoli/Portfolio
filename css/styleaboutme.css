@@ -1,0 +1,341 @@
+@font-face {
+    font-display: swap; 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 100;
+    src: url('../fonts/poppins-v20-latin-100.woff2') format('woff2'); 
+}
+
+  @font-face {
+    font-display: swap; 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200;
+    src: url('../fonts/poppins-v20-latin-200.woff2') format('woff2'); 
+  }
+
+  @font-face {
+    font-display: swap; 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/poppins-v20-latin-300.woff2') format('woff2'); 
+  }
+
+  @font-face {
+    font-display: swap;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/poppins-v20-latin-regular.woff2') format('woff2'); 
+  }
+
+  @font-face {
+    font-display: swap; 
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 400;
+    src: url('../fonts/poppins-v20-latin-italic.woff2') format('woff2'); 
+  }
+
+  @font-face {
+    font-display: swap;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/poppins-v20-latin-500.woff2') format('woff2'); 
+  }
+
+  @font-face {
+    font-display: swap; 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/poppins-v20-latin-600.woff2') format('woff2'); 
+  }
+ 
+  @font-face {
+    font-display: swap; 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/poppins-v20-latin-700.woff2') format('woff2'); 
+  }
+  
+  @font-face {
+    font-display: swap; 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../fonts/poppins-v20-latin-800.woff2') format('woff2'); 
+  }
+ 
+  @font-face {
+    font-display: swap; 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/poppins-v20-latin-900.woff2') format('woff2'); 
+  }
+ 
+  @font-face {
+    font-display: swap; 
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 900;
+    src: url('../fonts/poppins-v20-latin-900italic.woff2') format('woff2'); 
+  }
+
+  @font-face {
+    font-family: 'Hoghfish DEMO';
+    src: url("../fonts/Hogfish\ DEMO.otf");
+   
+    }
+
+
+  :root {
+    --dark-color: #000;
+    --light-color: #fff;
+    --pink-color:#ffd9d9;
+    --lightblue-color: #008ebb;
+  }
+
+
+  body {
+   color: var(--light-color);
+   font-family: Poppins, normal; 
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 1.4;
+   background-image: url(../img/sfondo.svg);
+  }
+
+
+  .main-header {
+    width: 100%;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    position: fixed;
+    top: 0%;
+    bottom: auto;
+    left: 0%;
+    right: 0%;
+  }
+
+
+  .container-flex {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    transition: 500ms;
+  
+  }
+
+  .logo {
+    width: 40px;
+    height: 40px;
+    padding-top: 2rem;
+    padding-right: 2rem;
+  }
+
+
+  .nav-item {
+    color:var(--lightblue-color);
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    display: inline-block; 
+    justify-content: end;
+    text-decoration: none;
+  }
+
+
+  .section-hero {
+    min-height: 35vh;
+    align-items: center;
+    margin-top: 100px;
+    text-align: center;
+    
+  }
+
+  .bg {
+    background: var(--lightblue-color);
+    padding: 10px;
+
+  }
+
+
+
+  h1 {
+    margin-top: 230px;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 1.4;
+    color: var(--lightblue-color);
+    font-family: Hoghfish DEMO; 
+    justify-content: center;
+  }
+
+  .title-xl{
+    margin-bottom: 0px;
+  }
+
+
+  .sub-title-l {
+   
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: var(--lightblue-color);
+    font-family: Poppins;
+    margin-top: 10px;
+  }
+
+
+  .hero-cta {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.4;
+    color: var(--lightblue-color);
+    font-family: Poppins; 
+  }
+
+
+
+  .section-aboutme {
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    background-color: var(--pink-color);
+    gap: 20px;
+
+  }
+
+  .img-s-aboutme {
+    flex: 50%;
+  }
+
+  .img-aboutme{
+    width: 350px;
+    height: 350px;
+    padding-left: 11rem;
+
+  }
+
+  .text-s-aboutme {
+    flex: 50%;
+
+  }
+
+  .title-xm {
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 1.4;
+    color: var(--lightblue-color);
+    font-family: Hoghfish DEMO; 
+  }
+
+  .text-m {
+    margin-right: 150px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: var(--dark-color);
+    font-family: Poppins; 
+  }
+
+  .section-information {
+    height: 45vh;
+    width: 100%;
+    padding-top: 4rem;
+    padding-bottom: 4rem;  
+    align-items: center;
+    text-align: center;
+  }
+
+  .title-skill {
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.4;
+    color: var(--lightblue-color);
+    font-family: Hoghfish DEMO;
+    justify-content: center;
+  }
+
+  .img-skill {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+
+  .img-ae, .img-ai, .img-fg, .img-id, .img-ps, .img-xd {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+  }
+
+
+  .title-hobby {
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.4;
+    color: var(--lightblue-color);
+    font-family: Hoghfish DEMO;
+    justify-content: center;
+  }
+
+
+  .img-hobby {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 10px;
+  }
+
+  .img-musica, .img-disegno, .img-danza, .img-gd, .img-fotografia {
+    height: 100px;
+    padding: 30px;
+  }
+
+
+  .footer {
+    margin-top: 100px;
+    min-height: 40vh;
+    display: flex;
+    align-items: center;
+    background-color: var(--pink-color);
+  }
+
+  .footer-contacts {
+    margin-left: 50px;
+
+  } 
+
+  .subtitle-xm {
+    color: var(--lightblue-color);
+    font-weight: 600;
+
+  }
+
+  .text-xs {
+    color: var(--lightblue-color);
+    font-weight: 500;
+    padding: 20px;
+    text-decoration: none;
+  }
+
+  .footer-social {
+    display: flex;
+
+  }

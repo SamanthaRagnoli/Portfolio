@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="css/stylecontacts.css">
+</head>
+<body>
+  <header class="main-header">
+    <div class="container flex">
+      <img class="logo" src="./img/logo-lightblue.svg" alt="logo">
+
+      <nav class="navigation">
+        <ul>
+          <li><a class="nav-item" href="aboutme.html">About me</a></li>
+          <li><a class="nav-item" href="work.html">work</a></li>
+          <li><a class="nav-item" href="contacts.html">contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+
+  <section id="form-contact" class="form-contact">
+    <div class="contatti">
+    <h2>Contact Me!</h2>
+
+      <form action="#">
+        <div class="input-box">
+            <div class="input-field field">
+              <input type="text" placeholder="Full Name" id="name" class="item" autocomplete="off">
+              <div class="error-txt">Full name can't be blank</div>
+              </div>
+
+            <div class="input-field field">
+              <input type="text" placeholder="Email Adress" id="email" class="item" autocomplete="off">
+              <div class="error-txt">Email adress can't be blank</div>
+              </div>   
+        </div>
+
+        <div class="input-box">
+          <div class="input-field field">
+            <input type="text" placeholder="Phone Number" id="phone" class="item" autocomplete="off">
+            <div class="error-txt">Phone number can't be blank</div>
+            </div>
+
+          <div class="input-field field">
+            <input type="text" placeholder="Subject" id="subject" class="item" autocomplete="off">
+            <div class="error-txt">Subject can't be blank</div>
+            </div>   
+        </div>
+
+
+        <div class="textarea-field field">
+          <textarea name="" id="message" cols="30" rows="10" placeholder="Your Message" class="item" autocomplete="off">
+          </textarea>
+        </div>
+      
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+ 
+    </section>
+     
+     
+     
+     
+     
+       
+
+
+
+  <footer class="main-footer"></footer>
+  <section id="footer" class="footer">
+    <div class="footer-contacts">
+      <div class="title-xm">Contacts</div>
+      <div class="subtitle-xm">Mail</div>
+      <div class="text-m">sami.ragnoli@gmail.com</div>
+      <div class="subtitle-xm">Number</div>
+      <div class="text-m">+39 3420274466</div>
+    </div>
+
+    <div class="footer-social">
+      <img src="">
+      <img src="">
+      <img src="">
+    </div>
+
+    <div class="footer-pages">
+      <a class="text-xs" href="index.html">
+        <div>Home</div></a>
+      <a class="text-xs" href="aboutme.html">
+        <div>Aboutme</div></a>
+      <a class="text-xs" href="work.html">
+        <div>Work</div></a>
+      <a class="text-xs" href="contacts.html">
+        <div>Contact</div></a>
+    
+  </section>
+
+  <script src="js/custom.js"></script>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+  </body>
+  </html>

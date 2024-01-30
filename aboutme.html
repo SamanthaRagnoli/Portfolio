@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="css/styleaboutme.css">
+</head>
+<body>
+  <header class="main-header">
+    <div class="container flex">
+      <img class="logo" src="./img/logo-lightblue.svg" alt="logo">
+
+      <nav class="navigation">
+        <ul>
+          <li><a class="nav-item" href="aboutme.html">About me</a></li>
+          <li><a class="nav-item" href="work.html">work</a></li>
+          <li><a class="nav-item" href="contacts.html">contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <section id="section-hero" class="section-hero">
+      <h1 class="title-xl">Hello, i'm Samantha</h1>
+      <div class="sub-title-l">Graphic designer<br></br></div>     
+    </section>
+
+    <section id="section-aboutme" class="section-aboutme">
+      <div class="img-s-aboutme">
+      <img class="img-aboutme"  src="./img/img_io.png">
+        </div>
+      
+      <div class="text-s-aboutme">
+      <div class="title-xm">About me</div>
+      <div class="text-m">
+        Sono una studentessa di Grafica che è alla ricerca di una nuova esperienza nel mondo lavorativo.
+        Sono sempre stata appassionata di tutto ciò che comprende la carta e i colori, ma nell’ultimo periodo sto riscoprendo 
+        anche la parte più digitale della grafica. Sono una persona molto determinata e meticolosa.
+        </div>
+    </section>
+
+    <section id="section-information" class="section-information">
+      <div class="title-skill ">Skills</div>
+      <div class="img-skill">
+        <img class="img-ae" src="./img/img-ae.png">
+        <img class="img-ai" src="./img/img-ai.png">
+        <img class="img-fg" src="./img/img-fg.png">
+        <img class="img-id" src="./img/img-id.png">
+        <img class="img-ps" src="./img/img-ps.png">
+        <img class="img-xd" src="./img/img-xd.png">
+      </div>
+      
+      <div class="title-hobby ">Hobby</div>
+      <div class="img-hobby">
+        <div class="img-hobby">
+          <img class="img-musica" src="./img/img-musica.png">
+          <img class="img-disegno" src="./img/img-disegno.png">
+          <img class="img-fotografia" src="./img/img-fotografia.png">
+          <img class="img-danza" src="./img/img-danza.png">
+
+        </div>
+
+      </div>
+      
+
+    </section> 
+    
+
+  </main>
+
+
+  <footer class="main-footer"></footer>
+    <section id="footer" class="footer">
+      <div class="footer-contacts">
+        <div class="title-xm">Contacts</div>
+        <div class="subtitle-xm">Mail</div>
+        <div class="text-m">sami.ragnoli@gmail.com</div>
+        <div class="subtitle-xm">Number</div>
+        <div class="text-m">+39 3420274466</div>
+      </div>
+
+      <div class="footer-social">
+        <img src="">
+        <img src="">
+        <img src="">
+      </div>
+
+      <div class="footer-pages">
+        <a class="text-xs" href="index.html">
+          <div>Home</div></a>
+        <a class="text-xs" href="aboutme.html">
+          <div>Aboutme</div></a>
+        <a class="text-xs" href="work.html">
+          <div>Work</div></a>
+        <a class="text-xs" href="contacts.html">
+          <div>Contact</div></a>
+      
+        
+    </section>
+ 
+
+<script>
+    $(document).ready(function(){
+      $(window).on('scroll', function(){
+        if ($(window).scrollTop()) {
+          $("container-flex").addClass('bg');
+        }else{
+          $("container-flex").removeClass('bg');
+        }
+      })
+    });
+</script>
+
+
+
+
+
+  <script src="js/jqury.js"></script>
+  <script src="js/custom.js"></script>
+
+</body>
+</html>
