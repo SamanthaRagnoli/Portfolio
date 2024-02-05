@@ -1,3 +1,98 @@
+@font-face {
+  font-display: swap; 
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 100;
+  src: url('../fonts/poppins-v20-latin-100.woff2') format('woff2'); 
+}
+
+@font-face {
+  font-display: swap; 
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 200;
+  src: url('../fonts/poppins-v20-latin-200.woff2') format('woff2'); 
+}
+
+@font-face {
+  font-display: swap; 
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/poppins-v20-latin-300.woff2') format('woff2'); 
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/poppins-v20-latin-regular.woff2') format('woff2'); 
+}
+
+@font-face {
+  font-display: swap; 
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 400;
+  src: url('../fonts/poppins-v20-latin-italic.woff2') format('woff2'); 
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/poppins-v20-latin-500.woff2') format('woff2'); 
+}
+
+@font-face {
+  font-display: swap; 
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/poppins-v20-latin-600.woff2') format('woff2'); 
+}
+
+@font-face {
+  font-display: swap; 
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/poppins-v20-latin-700.woff2') format('woff2'); 
+}
+
+@font-face {
+  font-display: swap; 
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 800;
+  src: url('../fonts/poppins-v20-latin-800.woff2') format('woff2'); 
+}
+
+@font-face {
+  font-display: swap; 
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../fonts/poppins-v20-latin-900.woff2') format('woff2'); 
+}
+
+@font-face {
+  font-display: swap; 
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 900;
+  src: url('../fonts/poppins-v20-latin-900italic.woff2') format('woff2'); 
+}
+
+@font-face {
+  font-family: 'Hoghfish DEMO';
+  src: url("../fonts/Hogfish\ DEMO.otf");
+ 
+  }
+
+  
 $color1: #000000;
 $color2: #ffffff;
 $color3: #ffd9d9;
@@ -5,7 +100,7 @@ $color4: #008ebb;
 $color5: #828282;
 $color6: #ff0000;
 $color7: #c9cdcc;
-$color8: rgba(255, 217 ,217, 0.1);
+$color8: rgba(130, 130 ,130, 0.5);
 
 
   body {
@@ -19,102 +114,59 @@ $color8: rgba(255, 217 ,217, 0.1);
 
 }
 
-  header {
-    position: fixed;
-    top: 0;
-    left: 0;
+  .navbar {
+    background-color: $color8;
     width: 100%;
-    height: 40px;
-    padding: 20px;
-    background: $color8;
     backdrop-filter: blur(50px);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 200;
 
   }
 
-  .logo {
-   width: 40px;
-   height: 40px;
-   padding: 2rem;
-   
- }
+  .d-inline-block {
+    width: 80px;
+    height: 40px;
+    padding-left: 35px;
+  }
 
- .navigation a {
-  font-size: 1.15rem;
-  color: $color4;
-  text-decoration: none;
-  font-weight: 500;
-  margin-left: 2.5rem;
-  transition: all 0.5s;
-
-
- }
-
- .navigation {
-  padding-right: 100px;
-  z-index: 1000;
-  transition: all 0.5s;
-
- }
-
-nav.sticky {
-  background-color: $color8;
-
-}
-
-nav.sticky a {
-  color: $color4;
+  .nav-item {
+    font-size: 1.15rem;
+    color: $color2;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 2.5rem;
   
-}
+  }
 
+  .nav-link {
+    color: $color2 !important;
+  }
 
  .section-hero {
    min-height: 70vh;
-   align-items: center;
-   margin-top: 100px;
-   text-align: center;
+   margin-top: 300px;
    
  }
 
- .bg {
-   background: $color4;
-   padding: 10px;
 
- }
-
-
-
- h1 {
-   margin-top: 230px;
+ .title-xl {
    font-size: 80px;
    font-weight: 500;
    line-height: 1.4;
    color: $color4;
    font-family: Hoghfish DEMO; 
-   justify-content: center;
+  
  }
-
- .title-xl{
-   margin-bottom: 0px;
- }
-
 
  .sub-title-l {
-  
    font-size: 20px;
    font-weight: 500;
    line-height: 1.4;
    color: $color4;
    font-family: Poppins;
+   margin-bottom: 200px;
  }
 
-
  .hero-cta {
-   margin-top: 100px;
-   margin-bottom: 50px;
+   margin-bottom: 100px;
    font-size: 20px;
    font-weight: 500;
    line-height: 1.4;
@@ -122,20 +174,11 @@ nav.sticky a {
    font-family: Poppins; 
  }
 
- .buttons {
-   display: flex;
-   gap: 450px;
-   justify-content: center;
-   
-   
- }
-
-
- .button-aboutme {
+ .b-aboutme {
    border-color: $color4;
    padding: 20px 40px;
-   height: 20px;
-   width: 100px;  
+   min-height: 100px;
+   min-width: 100px;  
    font-family: Poppins;
    font-weight: 500;
    font-size: 17px;
@@ -144,16 +187,16 @@ nav.sticky a {
    border-radius: 40px;
    border: 2px solid $color4;
    text-decoration: none;
-   
+ 
  }
 
- .button-aboutme:hover{
+ .b-aboutme:hover{
    background-color: $color4;
    color: $color2;
 
  }
  
- .button-contacts {
+ .b-contacts {
    border-color: $color4;
    padding: 20px 40px;
    height: 20px;
@@ -169,7 +212,7 @@ nav.sticky a {
    
  }
 
- .button-contacts:hover{
+ .b-contacts:hover{
    background-color: $color4;
    color: $color2;
 
@@ -177,27 +220,16 @@ nav.sticky a {
 
  .section-aboutme {
    min-height: 80vh;
-   display: flex;
-   align-items: center;
+   width: 100%;
    background-color: $color3;
-   gap: 20px;
+   margin: 0px ;
 
  }
 
- .img-s-aboutme {
-   flex: 50%;
- }
-
- .img-aboutme{
+ .i-aboutme{
    width: 450px;
    height: 450px;
-   padding-left: 11rem;
-
- }
-
- .text-s-aboutme {
-   flex: 50%;
-
+ 
  }
 
  .title-xm {
@@ -207,6 +239,7 @@ nav.sticky a {
    line-height: 1.4;
    color: $color4;
    font-family: Hoghfish DEMO; 
+   text-align: center;
  }
 
  .text-m {
