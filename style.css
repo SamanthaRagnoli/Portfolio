@@ -116,7 +116,7 @@ body {
 
 .section-hero {
   min-height: 70vh;
-  margin-bottom: 100px !important;
+  margin-top: 250px !important;
 }
 
 .title-xl {
@@ -133,6 +133,7 @@ body {
   line-height: 1.4;
   color: #008ebb;
   font-family: Poppins;
+  margin-bottom: 100px !important;
 }
 
 .hero-cta {
