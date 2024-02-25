@@ -116,6 +116,7 @@ body {
 
 .section-hero {
   min-height: 70vh;
+  margin-bottom: 100px;
 }
 
 .title-xl {
