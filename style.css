@@ -114,10 +114,6 @@ body {
   color: #ffffff !important;
 }
 
-.section-hero {
-  margin-top: 200px !important;
-}
-
 .title-xl {
   font-size: 80px;
   font-weight: 500;
@@ -132,7 +128,6 @@ body {
   line-height: 1.4;
   color: #008ebb;
   font-family: Poppins;
-  margin-bottom: 100px !important;
 }
 
 .hero-cta {
@@ -160,7 +155,6 @@ body {
   text-decoration: none;
   width: 50px !important;
   height: 60px !important;
-  margin-bottom: 200px !important;
 }
 
 .b-contacts:hover {
