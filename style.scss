@@ -174,47 +174,30 @@ $color8: rgba(130, 130 ,130, 0.5);
    font-family: Poppins; 
  }
 
- .b-aboutme {
-   border-color: $color4;
-   padding: 20px 40px;
-   min-height: 100px;
-   min-width: 100px;  
-   font-family: Poppins;
-   font-weight: 500;
-   font-size: 17px;
-   text-align: center;
-   color: $color4;
-   border-radius: 40px;
-   border: 2px solid $color4;
-   text-decoration: none;
- 
- }
 
  .b-aboutme:hover{
-   background-color: $color4;
-   color: $color2;
+   background-color: $color4 !important;
+   color: $color2 !important;
 
  }
+
  
- .b-contacts {
-   border-color: $color4;
-   padding: 20px 40px;
-   height: 20px;
-   width: 100px;  
-   font-family: Poppins;
-   font-weight: 500;
-   font-size: 17px;
-   text-align: center;
-   color: $color4;
-   border-radius: 40px;
-   border: 2px solid $color4;
-   text-decoration: none;
-   
- }
+ .btn-outline-primary {
+  color: $color4 !important;
+  font-family: Poppins !important;
+  font-weight: 600 !important;
+  font-size: 17px !important;
+  text-align: center;
+  color: $color4;
+  border: 2px solid $color4 !important;
+  text-decoration: none;
+  width: 100px !important;
+
+}
 
  .b-contacts:hover{
-   background-color: $color4;
-   color: $color2;
+   background-color: $color4 !important;
+   color: $color2 !important;
 
  }
 
@@ -234,7 +217,7 @@ $color8: rgba(130, 130 ,130, 0.5);
 
  .title-xm {
    margin-bottom: 20px;
-   font-size: 35px;
+   font-size: 3vw;
    font-weight: 500;
    line-height: 1.4;
    color: $color4;

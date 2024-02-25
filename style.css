@@ -145,44 +145,26 @@ body {
   font-family: Poppins;
 }
 
-.b-aboutme {
-  border-color: #008ebb;
-  padding: 20px 40px;
-  min-height: 100px;
-  min-width: 100px;
-  font-family: Poppins;
-  font-weight: 500;
-  font-size: 17px;
-  text-align: center;
-  color: #008ebb;
-  border-radius: 40px;
-  border: 2px solid #008ebb;
-  text-decoration: none;
-}
-
 .b-aboutme:hover {
-  background-color: #008ebb;
-  color: #ffffff;
+  background-color: #008ebb !important;
+  color: #ffffff !important;
 }
 
-.b-contacts {
-  border-color: #008ebb;
-  padding: 20px 40px;
-  height: 20px;
-  width: 100px;
-  font-family: Poppins;
-  font-weight: 500;
-  font-size: 17px;
+.btn-outline-primary {
+  color: #008ebb !important;
+  font-family: Poppins !important;
+  font-weight: 600 !important;
+  font-size: 17px !important;
   text-align: center;
   color: #008ebb;
-  border-radius: 40px;
-  border: 2px solid #008ebb;
+  border: 2px solid #008ebb !important;
   text-decoration: none;
+  width: 100px !important;
 }
 
 .b-contacts:hover {
-  background-color: #008ebb;
-  color: #ffffff;
+  background-color: #008ebb !important;
+  color: #ffffff !important;
 }
 
 .section-aboutme {
@@ -199,7 +181,7 @@ body {
 
 .title-xm {
   margin-bottom: 20px;
-  font-size: 35px;
+  font-size: 3vw;
   font-weight: 500;
   line-height: 1.4;
   color: #008ebb;
