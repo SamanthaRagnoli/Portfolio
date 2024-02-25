@@ -115,8 +115,7 @@ body {
 }
 
 .section-hero {
-  min-height: 70vh;
-  margin-top: 250px !important;
+  margin-top: 200px !important;
 }
 
 .title-xl {
@@ -161,6 +160,7 @@ body {
   text-decoration: none;
   width: 50px !important;
   height: 60px !important;
+  margin-bottom: 200px !important;
 }
 
 .b-contacts:hover {
