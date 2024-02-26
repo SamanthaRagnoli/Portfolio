@@ -217,11 +217,6 @@ $color8: rgba(130, 130 ,130, 0.5);
 }
 
 
-
-
-
-
-
  .b-contacts:hover{
    background-color: $color4 !important;
    color: $color2 !important;
@@ -229,22 +224,24 @@ $color8: rgba(130, 130 ,130, 0.5);
  }
 
  .section-aboutme {
-   min-height: 80vh;
    width: 100%;
    background-color: $color3;
-   margin: 0px ;
+   text-align: center;
+
 
  }
 
  .i-aboutme{
-   width: 450px;
-   height: 450px;
+   width: 50%;
+   height: 50%;
+   margin: 100px;
+   text-align: center;
+   
  
  }
 
  .title-xm {
-   margin-bottom: 20px;
-   font-size: 3vw;
+   font-size: 30px;
    font-weight: 500;
    line-height: 1.4;
    color: $color4;
@@ -253,14 +250,48 @@ $color8: rgba(130, 130 ,130, 0.5);
  }
 
  .text-m {
-   margin-right: 150px;
+   padding-right: 150px;
+   padding-left: 150px;
    font-size: 15px;
    font-weight: 400;
    line-height: 1.4;
    color: $color1;
    font-family: Poppins;
-   width: 585px; 
+   text-align: center;
+ 
  }
+
+
+ @media  (max-width: 1140px) {
+
+  .text-m {
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+}
+
+@media  (max-width: 760px) {
+
+  .text-m {
+    margin-bottom: 100px;
+}
+
+}
+
+@media  (max-width: 576px) {
+
+  .i-aboutme {
+    width: 70%;
+    height: 70%;
+    margin: 50px;
+}
+
+  .text-m {
+    margin-bottom: 50px;
+}
+
+}
 
  
  .section-gallery {
