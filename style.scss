@@ -407,6 +407,14 @@ $color8: rgba(130, 130 ,130, 0.5);
   
  }
 
+ @media  (max-width: 576px) {
+
+  .contenitore {
+    gap: 0px;
+    
+   }
+}
+
 .form {
   width: 50%;
   
@@ -417,7 +425,7 @@ $color8: rgba(130, 130 ,130, 0.5);
 }
 
 .contact {
-  padding: 40px;
+  padding: 50px;
   background: transparent; 
 }
 
@@ -552,7 +560,7 @@ $color8: rgba(130, 130 ,130, 0.5);
 .social {
   margin-top: 40px;
   display: flex;
-  margin-left: -40px;
+  margin-left: -30px;
 
 }
 
