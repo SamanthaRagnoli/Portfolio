@@ -479,7 +479,6 @@ body {
 }
 
 .footer {
-  min-height: 40vh;
   display: flex;
   align-items: center;
   background-color: #ffd9d9;
@@ -488,7 +487,20 @@ body {
 
 .footer-contacts {
   margin-left: 50px;
-  width: 30%;
+  width: 50%;
+}
+
+.title-xms {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1.4;
+  color: #008ebb;
+  font-family: Hoghfish DEMO;
+  text-align: left;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  background-color: #ffd9d9;
 }
 
 .footer-contacts .footerBox div {
@@ -525,8 +537,8 @@ body {
 
 .footer-social {
   display: flex;
-  width: 30%;
-  margin-top: 150px;
+  margin-top: 20px;
+  margin-left: -30px;
 }
 
 .footer-social li {
@@ -540,11 +552,11 @@ body {
 }
 
 .footer-pages {
-  width: 30%;
+  width: 50%;
 }
 
 .text-xs {
   text-decoration: none;
-  margin: 40px;
+  margin: 30px;
   color: #008ebb;
 }/*# sourceMappingURL=style.css.map */

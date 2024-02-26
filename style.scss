@@ -586,7 +586,6 @@ $color8: rgba(130, 130 ,130, 0.5);
 
 
  .footer {
-   min-height: 40vh;
    display: flex;
    align-items: center;
    background-color: $color3;
@@ -596,9 +595,24 @@ $color8: rgba(130, 130 ,130, 0.5);
 
  .footer-contacts {
    margin-left: 50px;
-   width: 30%
+   width: 50%
 
  } 
+
+
+ .title-xms {
+   font-size: 30px;
+   font-weight: 500;
+   line-height: 1.4;
+   color: $color4;
+   font-family: Hoghfish DEMO; 
+   text-align: left;
+   padding-top: 50px;
+   padding-bottom: 50px;
+   padding-left: 50px;
+   background-color: $color3;
+  
+ }
 
  .footer-contacts .footerBox div {
   display: flex;
@@ -641,9 +655,8 @@ $color8: rgba(130, 130 ,130, 0.5);
 
  .footer-social {
    display: flex;
-   width: 30%;
-   margin-top: 150px;
- 
+   margin-top: 20px;
+   margin-left: -30px;
 
  }
 
@@ -661,20 +674,13 @@ $color8: rgba(130, 130 ,130, 0.5);
  }
 
  .footer-pages {
-   width: 30%;
-  
-   
-   
- 
+   width: 50%;
+
   }
 
   .text-xs {
     text-decoration: none;
-    margin: 40px;
+    margin: 30px;
     color: $color4;
-    
-
-
-
 
   }
