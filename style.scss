@@ -295,9 +295,7 @@ $color8: rgba(130, 130 ,130, 0.5);
 
  
  .section-gallery {
-   min-height: 20vh;
-   padding-top: 4rem;
-   padding-bottom: 4rem;  
+   padding-top: 4rem;  
    align-items: center;
    text-align: center;
  }
@@ -314,7 +312,6 @@ $color8: rgba(130, 130 ,130, 0.5);
 
  .swiper {
    width: 100%;
-   height: 45vh;
    padding-top: 60px;
    padding-bottom: 60px;
  }
@@ -323,15 +320,22 @@ $color8: rgba(130, 130 ,130, 0.5);
    background-position: center;
    background-size: cover;
    width: 500px;
-   height: 300px;
+   height: 400px;
  }
+
+ @media  (max-width: 576px) {
+  
+  .swiper-slide {
+    width: 300px;
+    height: 200px;
+  }
+  }
 
  .swiper-slide img {
    display: block;
    width: 100%;
    border-radius: 1rem;
  }
-
 
  .cta-project:hover{
    background-color: $color4;
@@ -342,20 +346,14 @@ $color8: rgba(130, 130 ,130, 0.5);
 
 
 
-
-
-
-
-
 .section-contact {
   background-color: $color4;
   width: 100%;
-  height: 100vh;
   
 }
 
 .contatti {
-  padding-top: 10px;
+  padding-top: 50px;
   text-align: center;
   color: $color3;
   font-size: 25px;
@@ -364,14 +362,43 @@ $color8: rgba(130, 130 ,130, 0.5);
 }
 
 .txt-contact {
+  padding-top: 20px;
+  padding-left: 300px;
+  padding-right: 300px;
   text-align: center;
   font-size: 15px;
   font-weight: 400;
   color: $color3;
-  margin-top: -10px;
+
   
 }
 
+
+
+@media  (max-width: 1140px) {
+
+  .txt-contact {
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+}
+
+@media  (max-width: 760px) {
+
+  .txt-contact {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
+@media  (max-width: 576px) {
+
+  .txt-contact {
+    padding-left: 30px;
+    padding-right: 30px;
+
+  }
+}
 
 .contenitore { 
   display: flex;
