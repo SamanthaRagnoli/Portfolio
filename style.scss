@@ -148,6 +148,7 @@ $color8: rgba(130, 130 ,130, 0.5);
    line-height: 1.4;
    color: $color4;
    font-family: Hoghfish DEMO; 
+   padding-top: 250px;
   
  }
 
@@ -157,6 +158,8 @@ $color8: rgba(130, 130 ,130, 0.5);
    line-height: 1.4;
    color: $color4;
    font-family: Poppins;
+   margin-bottom: 100px;
+   
    
  }
 
@@ -188,9 +191,36 @@ $color8: rgba(130, 130 ,130, 0.5);
   text-decoration: none;
   width: 50px !important;
   height: 60px !important; 
+  margin-bottom: 100px;
 
 
 }
+
+@media  (max-width: 760px) {
+
+  .btn-outline-primary { 
+    margin-bottom: 30px;
+}
+  .b-hero{
+    margin-bottom: 50px;
+  }
+  .title-xl {
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 1.4;
+    color: $color4;
+    font-family: Hoghfish DEMO; 
+    padding-top: 100px;
+    padding-bottom: 30px ;
+   
+  }
+}
+
+
+
+
+
+
 
  .b-contacts:hover{
    background-color: $color4 !important;

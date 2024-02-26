@@ -120,6 +120,7 @@ body {
   line-height: 1.4;
   color: #008ebb;
   font-family: Hoghfish DEMO;
+  padding-top: 250px;
 }
 
 .sub-title-l {
@@ -128,6 +129,7 @@ body {
   line-height: 1.4;
   color: #008ebb;
   font-family: Poppins;
+  margin-bottom: 100px;
 }
 
 .hero-cta {
@@ -155,8 +157,26 @@ body {
   text-decoration: none;
   width: 50px !important;
   height: 60px !important;
+  margin-bottom: 100px;
 }
 
+@media (max-width: 760px) {
+  .btn-outline-primary {
+    margin-bottom: 30px;
+  }
+  .b-hero {
+    margin-bottom: 50px;
+  }
+  .title-xl {
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 1.4;
+    color: #008ebb;
+    font-family: Hoghfish DEMO;
+    padding-top: 100px;
+    padding-bottom: 30px;
+  }
+}
 .b-contacts:hover {
   background-color: #008ebb !important;
   color: #ffffff !important;
