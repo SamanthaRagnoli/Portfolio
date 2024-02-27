@@ -483,13 +483,12 @@ body {
   display: flex;
   align-items: center;
   background-color: #ffd9d9;
-  gap: 20px;
+  width: 100%;
 }
 
 .footer-contacts {
   margin-left: 50px;
   padding-top: 50px;
-  width: 49%;
 }
 
 .title-xms {
@@ -553,7 +552,6 @@ body {
 }
 
 .footer-pages {
-  width: 69%;
   margin-left: 50px;
 }
 

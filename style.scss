@@ -585,20 +585,18 @@ $color8: rgba(130, 130 ,130, 0.5);
 
 
 
-
  .footer {
    display: flex;
    align-items: center;
    background-color: $color3;
-   gap: 20px;
+   width: 100%;
    
  }
 
  .footer-contacts {
    margin-left: 50px;
    padding-top: 50px;
-   width: 49%
-
+ 
 
  } 
 
@@ -676,7 +674,7 @@ $color8: rgba(130, 130 ,130, 0.5);
  }
 
  .footer-pages {
-   width: 69%;
+  
    margin-left: 50px;
 
   }
