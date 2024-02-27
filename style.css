@@ -158,6 +158,7 @@ body {
   width: 50px !important;
   height: 60px !important;
   margin-bottom: 100px;
+  padding-top: 15px !important;
 }
 
 @media (max-width: 760px) {
@@ -553,7 +554,7 @@ body {
 
 .footer-pages {
   width: 69%;
-  margin-left: 40px;
+  margin-left: 50px;
 }
 
 .text-xs {
