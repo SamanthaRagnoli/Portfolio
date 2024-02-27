@@ -488,7 +488,7 @@ body {
 .footer-contacts {
   margin-left: 50px;
   padding-top: 50px;
-  width: 30%;
+  width: 49%;
 }
 
 .title-xms {
@@ -552,7 +552,8 @@ body {
 }
 
 .footer-pages {
-  width: 70%;
+  width: 69%;
+  margin-left: 40px;
 }
 
 .text-xs {
