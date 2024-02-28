@@ -388,11 +388,21 @@ body {
   width: 35%;
 }
 
+@media (max-width: 576px) {
+  .info {
+    display: none;
+  }
+}
 .contact {
   padding: 50px;
   background: transparent;
 }
 
+@media (max-width: 576px) {
+  .contact {
+    margin-left: 15px;
+  }
+}
 .contact h3 {
   color: #ffd9d9;
   font-weight: 500;

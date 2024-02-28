@@ -477,10 +477,27 @@ $color8: rgba(130, 130 ,130, 0.5);
   width: 35%;
 }
 
+@media  (max-width: 576px) {
+
+  .info {
+    display: none;
+    
+   }
+}
+
 .contact {
   padding: 50px;
   background: transparent; 
 }
+
+@media  (max-width: 576px) {
+
+  .contact {
+    margin-left: 15px;
+    
+   }
+}
+
 
 .contact h3 {
   color: $color3;
