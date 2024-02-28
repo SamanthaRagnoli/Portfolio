@@ -756,8 +756,10 @@ $color8: rgba(130, 130 ,130, 0.5);
   @media  (max-width: 576px) {
 
     .footer-pages {
-      margin-left: 0px;
+      margin-left: 10px;
+      padding-left: 10px;
       display: flex;
+   
       
      }
   }
