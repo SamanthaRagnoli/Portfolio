@@ -96,6 +96,11 @@ body {
           backdrop-filter: blur(50px);
 }
 
+.navbar-toggler {
+  color: #ffffff !important;
+  border: none !important;
+}
+
 .d-inline-block {
   width: 80px;
   height: 40px;
@@ -327,7 +332,11 @@ body {
 .contenitore {
   display: flex;
   gap: 100px;
-  padding: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 100%;
 }
 
 @media (max-width: 576px) {
@@ -483,7 +492,7 @@ body {
   display: flex;
   align-items: center;
   background-color: #ffd9d9;
-  width: 101%;
+  width: 103%;
 }
 
 .footer-contacts {
