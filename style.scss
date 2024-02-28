@@ -749,7 +749,17 @@ $color8: rgba(130, 130 ,130, 0.5);
 
  .footer-pages {
    margin-left: 50px;
+  
 
+  }
+
+  @media  (max-width: 576px) {
+
+    .footer-pages {
+      margin-left: 0px;
+      display: flex;
+      
+     }
   }
 
   .text-xs {

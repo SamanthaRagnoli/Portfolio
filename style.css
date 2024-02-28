@@ -614,6 +614,12 @@ body {
   margin-left: 50px;
 }
 
+@media (max-width: 576px) {
+  .footer-pages {
+    margin-left: 0px;
+    display: flex;
+  }
+}
 .text-xs {
   text-decoration: none;
   margin: 30px;
