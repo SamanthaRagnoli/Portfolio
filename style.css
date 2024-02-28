@@ -264,11 +264,15 @@ body {
   padding-bottom: 60px;
 }
 
+.swiper-wrapper {
+  width: 100%;
+}
+
 .swiper-slide {
   background-position: center;
   background-size: cover;
   width: 500px;
-  height: 400px;
+  height: 350px;
 }
 
 @media (max-width: 576px) {
