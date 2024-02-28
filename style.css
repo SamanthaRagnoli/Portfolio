@@ -243,10 +243,18 @@ body {
   }
   .text-m {
     margin-bottom: 50px;
+    font-family: Poppins;
   }
 }
 .section-gallery {
   padding-top: 4rem;
+  align-items: center;
+  text-align: center;
+}
+
+.section-gallery-2 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
   align-items: center;
   text-align: center;
 }
@@ -278,10 +286,30 @@ body {
   height: 350px;
 }
 
+.title-swiper {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.4;
+  color: #008ebb !important;
+  font-family: Poppins;
+  text-align: center;
+}
+
+.text-swiper {
+  margin-top: 5px;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #008ebb !important;
+  font-family: Poppins;
+  text-align: center;
+}
+
 @media (max-width: 576px) {
   .swiper-slide {
     width: 300px;
-    height: 200px;
+    height: 230px;
   }
 }
 .swiper-slide img {
@@ -316,6 +344,7 @@ body {
   font-size: 15px;
   font-weight: 400;
   color: #ffd9d9;
+  font-family: Poppins;
 }
 
 @media (max-width: 1140px) {
@@ -504,7 +533,7 @@ body {
 
 .footer-contacts {
   margin-left: 50px;
-  padding-top: 50px;
+  padding-top: 40px;
 }
 
 .title-xms {
@@ -534,6 +563,7 @@ body {
   justify-content: center;
   align-items: center;
   font-size: 1.5em;
+  font-family: Poppins;
   border-radius: 50%;
   margin-right: 15px;
 }
@@ -542,6 +572,7 @@ body {
   color: #008ebb;
   font-size: 0.9em;
   font-weight: 400;
+  font-family: Poppins;
 }
 
 .footer-contacts .footerBox div a {
@@ -549,6 +580,7 @@ body {
   text-decoration: none;
   font-size: 0.9em;
   font-weight: 400;
+  font-family: Poppins;
 }
 
 .footer-social {
@@ -565,6 +597,7 @@ body {
 .footer-social li a {
   color: #008ebb;
   font-size: 1.5em;
+  font-family: Poppins;
 }
 
 .footer-pages {
@@ -575,4 +608,6 @@ body {
   text-decoration: none;
   margin: 30px;
   color: #008ebb;
+  font-family: Poppins;
+  font-size: 15px;
 }/*# sourceMappingURL=style.css.map */
